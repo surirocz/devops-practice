@@ -48,6 +48,3 @@ class TestForProcessData(unittest.TestCase):
         # Monday
         datetime.datetime.today.return_value = monday
         assert self.process_data.is_a_weekend() is False
-
-
-unittest.main()
